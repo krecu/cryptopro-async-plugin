@@ -8,7 +8,7 @@
 - генерируем [тестовый сертификат](https://www.cryptopro.ru/certsrv/certrqma.asp) и импортируем его в хранилище
 - генерируем [сертификат тестового атестационного центра](http://www.cryptopro.ru/certsrv/certnew.cer?ReqID=CACert&Renewal=0&Enc=bin)
 - [проверяем работает ли сам плагин](https://www.cryptopro.ru/sites/default/files/products/cades/demopage/simple.html)
-- добавляем в Настройки КриптоПро ЭЦП Browser Plug-in хосты: https://*.cryptopro.ru, http://localhost:8000
+- добавляем в `Настройки КриптоПро ЭЦП Browser Plug-in`(для Chrome: chrome-extension://iifchhfnnmpdbibifmljnfjhpififfog/trusted_sites.html) хосты: https://*.cryptopro.ru, http://localhost:8000
 - [проверка подписанного документа](https://www.gosuslugi.ru/pgu/eds/)
 
 #### Пример использования
