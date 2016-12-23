@@ -9,6 +9,7 @@
 - генерируем [сертификат тестового атестационного центра](http://www.cryptopro.ru/certsrv/certnew.cer?ReqID=CACert&Renewal=0&Enc=bin)
 - [проверяем работает ли сам плагин](https://www.cryptopro.ru/sites/default/files/products/cades/demopage/simple.html)
 - [проверка подписанного документа](https://www.gosuslugi.ru/pgu/eds/)
+
 #### Пример использования
 
 ![DEMO](http://dl3.joxi.net/drive/2016/12/23/0017/1226/1127626/26/75112b8747.jpg)
@@ -21,7 +22,9 @@ php -S localhost:8000
 http://joxi.ru/bmoYzLeuLLYlAy
 
 #### Методы
+
 ##### Метод `getCertsList`
+
 Получение списка доступных сертификатов
 Результат:
 * Массив вида: [{}, {}, ...], где
@@ -40,6 +43,7 @@ CryptoPro.getCertsList().then(function(certs){ console.log(certs) });
 ```
 
 ##### Метод `signCreate`
+
 Создание прикрепленной подписи контента в base64 кодировке
 Параметры:
 * cert - ФИО владельца сертификата
