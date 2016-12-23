@@ -6,9 +6,9 @@
 - [КриптоПро ЦСП 4.0](https://www.cryptopro.ru/products/csp/downloads)
 - [КриптоПро browser plug-in 2.0](https://www.cryptopro.ru/products/cades/plugin/get_2_0)
 - генерируем [тестовый сертификат](https://www.cryptopro.ru/certsrv/certrqma.asp) и импортируем его в хранилище
-- [генерируем сертификат тестового атестационного центра](http://www.cryptopro.ru/certsrv/certnew.cer?ReqID=CACert&Renewal=0&Enc=bin)
-- [проверяем работает ли все](https://www.cryptopro.ru/sites/default/files/products/cades/demopage/simple.html)
-
+- генерируем [сертификат тестового атестационного центра](http://www.cryptopro.ru/certsrv/certnew.cer?ReqID=CACert&Renewal=0&Enc=bin)
+- [проверяем работает ли сам плагин](https://www.cryptopro.ru/sites/default/files/products/cades/demopage/simple.html)
+- [проверка подписанного документа](https://www.gosuslugi.ru/pgu/eds/)
 #### Пример использования
 ```bash
 git clone git@github.com:krecu/cryptopro-async-plugin.git
