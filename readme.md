@@ -10,11 +10,14 @@
 - [проверяем работает ли сам плагин](https://www.cryptopro.ru/sites/default/files/products/cades/demopage/simple.html)
 - [проверка подписанного документа](https://www.gosuslugi.ru/pgu/eds/)
 #### Пример использования
+![DEMO](http://dl3.joxi.net/drive/2016/12/23/0017/1226/1127626/26/75112b8747.jpg)
 ```bash
 git clone git@github.com:krecu/cryptopro-async-plugin.git
 cd ./cryptopro-async-plugin
 php -S localhost:8000
 ```
+http://joxi.ru/bmoYzLeuLLYlAy
+
 #### Методы
 ##### Метод `getCertsList`
 Получение списка доступных сертификатов
